@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<employee xmlns="http://localhost.com" 
+xmlns:xsi="http://localhost.com/XMLSchema-instance" 
+xsi:schemaLocation="http://localhost.com employee.xsd">
+
+    <firstname>vimal</firstname>
+    <lastname>jaiswal</lastname>
+    <email>vimal@javatpoint.com</email>
+</employee> 
+
+<?xml version="1.0"?>
+<employee xmlns="http://localhost.com"
+xmlns:xsi="http//localhost.com/XMLSchema-instance"
+xsi:schemaLocation="http:localhost.com xml.xsd">
+
+
+</employee>

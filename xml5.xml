@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ROOT [
+
+<!ELEMENT ROOT (TO,FROM,DATA)>
+<!ELEMENT TO (#PCDATA)>
+<!ELEMENT FROM (#PCDATA)>
+<!ELEMENT DATA (#PCDATA)>
+
+]>
+
+<ROOT>
+    <TO>RAM</TO>
+    <FROM>SAM</FROM>
+    <DATA>STEXT</DATA>
+</ROOT>

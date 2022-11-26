@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!DOCTYPE root [
+    <!ELEMENT root (name,email,phone)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT phone (#PCDATA)>
+]>
+<!-- xml DTD validation syxtax example -->
+<!-- we use php and other language to validate -->
+<root>
+    <name>Ravi</name>
+    <email>abc123@gmail.com</email>
+    <phone>123456789</phone>
+</root>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsl:stylesheet xmlns:xsl="www.abc.com">
+<xsl:template match="/" >
+      <html>
+        <body>
+            <h2>The h2 defines the second element</h2>
+            <table border="2">
+                 <tr bgcolor="#ff22"> 
+                    <th>first </th>
+                    <th>second</th>
+                 </tr>     
+                 <tr>
+                    <xsl:for-each select="catolog/cd"/>
+                    <th><xsl:value-of select="first"/></th>
+                    <th><xsl:value-of select="second"/></th>
+                    <xsl:for-each/>
+                 </tr>
+            </table>
+        </body>
+      </html>
+</xsl:template>
+</xsl:stylesheet>

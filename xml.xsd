@@ -1,0 +1,26 @@
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+targetnamespace="http//localhost.com"
+xmlns="http//localhost.com"
+elementformdefault="qualified"
+
+
+<xsi:element>
+    <xsi:complextype>
+
+    <xsi:sequence>
+
+     <xsi:element name="firstname" type="x:string"/>
+     <xsi:element name="lastname" type="x:string"/>
+     <xsi:element name="email" type="x:string"/>>
+ 
+    </xsi:sequence>
+
+    </xsi:complextype>
+
+</xsi:element>
+
+
+
+
+
+</schema>

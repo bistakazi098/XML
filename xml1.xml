@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="ww.abc.com">
+    <xs:root>
+        <xs:element name="TO" type="string" />
+        <xs:string name="from" type="string" />
+        <xs:string name="data" type="string" />
+    </xs:root>
+</xs:schema>
